@@ -6,24 +6,30 @@ body {
   align-items: center;
   position: relative;
 }
+
+.color {
+  margin-right: 5px;
+}
+
 .red {
-  background: #e44236;
-  margin-right: 5px;
+  background-color: #e44236;
 }
+
 .cyan {
-  background: #25ccf7;
-  margin-right: 5px;
+  background-color: #25ccf7;
 }
+
 .violet {
-  background: #8b78e6;
-  margin-right: 5px;
+  background-color: #8b78e6;
 }
+
 .orange {
-  background: #ea7773;
-  margin-right: 5px;
+  background-color: #ea7773;
 }
+
 .pink {
-  background: pink;
+  background-color: pink;
+  margin-right: 0;
 }
 
 .center {
@@ -33,6 +39,7 @@ body {
   border-radius: 100%;
   transition: 0.2s ease-in-out all;
 }
+
 .color-hover {
   position: absolute;
   top: 10%;
@@ -44,19 +51,23 @@ body {
   justify-content: center;
   flex-direction: row;
 }
+
 .text {
   padding: 10px;
   color: #ffffff;
 }
+
 .color {
   width: 120px;
   height: 30px;
   border-radius: 5%;
   margin-bottom: 30px;
 }
+
 .color:hover {
   cursor: pointer;
 }
+
 .color:last-child {
   margin-bottom: 0;
 }
